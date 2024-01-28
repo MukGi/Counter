@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0px;
+}
+
+.container{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+}
+
+.container__counter{
+    width: 700px;
+    height: 700px;
+    border: solid;
+    border-radius: 5%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container__counter--title{
+    height: fit-content;
+    font-size: 50px;
+}
+
+.container__counter--label{
+font-size: 100px;
+
+}
+
+.container__counter--btn{
+    font-size: 50px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: aqua;
+    transition: background-color 0.25s;
+}
+
+.container__counter--btn:hover{
+    background-color: rgb(12, 151, 197);
+}
